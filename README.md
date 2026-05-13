@@ -54,8 +54,8 @@ Image IDs (one per line, without extension) are listed in split files under [`da
 
 | Resource | Link |
 |---|---|
-| Label dataset | [Download](#) |
-| Model checkpoints | [Download](#) |
+| Label dataset | [Download](https://drive.google.com/drive/folders/1FaEUNF5DNl5omALe2HWnihziONOY6ySP?usp=drive_link) |
+| Model checkpoints | [Download](https://drive.google.com/drive/folders/1fdRhi-YdDI5rSxklTdthPH657STGRQn1?usp=drive_link) |
 
 ### Pretrained backbones
 
@@ -65,7 +65,6 @@ Place backbone checkpoints in [`pretrained/`](pretrained/):
 |---|---|
 | `resnet50.pth` | https://download.pytorch.org/models/resnet50-0676ba61.pth |
 | `resnet101.pth` | https://download.pytorch.org/models/resnet101-63fe2227.pth |
-| `deeplabv2_resnet101_coco_pretrained.pth` | [Google Drive](https://drive.google.com/file/d/14be0R1544P5hBmpmtr8q5KeRAvGunc6i/view?usp=sharing) (only for `--model deeplabv2`) |
 
 ---
 
