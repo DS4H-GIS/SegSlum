@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+
+.ipynb_checkpoints/
+.DS_Store
+
+pretrained/*.pth
+outdir/
+*.log
