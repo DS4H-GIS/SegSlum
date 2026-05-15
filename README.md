@@ -110,18 +110,6 @@ CUDA_VISIBLE_DEVICES=0,1 python -W ignore main.py \
 
 ---
 
-## Notes
-
-The code targets **binary** slum segmentation at **256×256** inputs. The following values are hardcoded:
-
-- `class_num = 2` ([main.py:151](main.py#L151))
-- `nclass=2` in model construction ([main.py:287,289](main.py#L287))
-- Input size `[256, 256]` ([main.py:143-145](main.py#L143-L145))
-- `args.crop_size = 256` ([main.py:481](main.py#L481))
-- `torch.clamp(mask, max=1)` forces GT mask to binary ([dataset/semi.py:75](dataset/semi.py#L75))
-
----
-
 ## Citation
 
 ```bibtex
